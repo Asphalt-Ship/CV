@@ -7,6 +7,9 @@
         color: #d9d9d9;
     }
 }
+.h5 {
+    color: #555;
+}
 
 .darkgrey-bg {
     background-color: #a1a1a1;
@@ -18,18 +21,30 @@
     background-color: #80bcc5;
 }
 
+.blue-txt {
+    color: #0391a6;
+}
 .small-txt {
     font-size: 0.9rem;
 }
 
+.border-bottom {
+    border-bottom-color: #0391a6 !important;
+}
+
 // job
 
-#primary-job, #secondary-job {
-    border-bottom-color: #30909e !important;
-}
-#secondary-job {
-    color: #bae0e4;
+#jobs {
+    font-size: 1.1rem;
+    & #secondary-job {
+        color: #bae0e4;
+    }
 }
 
 // contact info
 
+#contact-info {
+    & li {
+        font-size: 1.1rem;
+    }
+}

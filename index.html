@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/1355f71a64.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>CV</title>
 </head>
@@ -25,7 +26,7 @@
             <!-- job -->
             <div class="blue-bg col-md-6 d-flex justify-content-center align-items-center">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div id="jobs" class="col-md-12">
                         <div id="primary-job" class="px-4 my-2 pb-2 border-bottom text-white">Développeuse web</div>
                         <div id="secondary-job" class="px-4 my-2 pb-2 border-bottom fw-bold">Web mobile</div>
                         <div class="px-4 my-2 text-white">Front-end</div> 
@@ -39,7 +40,7 @@
             <!-- profile -->
             <div class="col-md-6">
                 <div class="blue-bg row">
-                    <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5">
+                    <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5 w-75">
                         Profil
                     </div>
                 </div>
@@ -50,9 +51,9 @@
                 </div>
             </div>
             <!-- contact info -->
-            <div class="col-md-6">
+            <div id="contact-info" class="col-md-6">
                 <div class="darkgrey-bg row">
-                    <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5">
+                    <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5 w-75">
                         Contact
                     </div>
                 </div>
@@ -61,8 +62,8 @@
                         <ul class="list-unstyled me-5 mb-0">
                             <li class="my-3"><i class="bi bi-house-door-fill me-2 text-black-50"></i>13 Passage Cour du Bal - Meaux</li>
                             <li class="my-3"><i class="bi bi-telephone-fill me-2 text-black-50"></i>+33 6 34 30 27 43</li>
-                            <li class="my-3"><a class="text-decoration-none" href="mailto:Spargus00@gmail.com"><i class="bi bi-envelope-fill me-2 text-black-50"></i>Spargus00@gmail.com</li></a>
-                            <li class="my-3"><a class="text-decoration-none" href="https://github.com/Asphalt-Ship" target="blank"><i class="bi bi-github me-2 text-black-50"></i>Asphalt-Ship</li></a>
+                            <li class="my-3"><i class="bi bi-envelope-fill me-2 text-black-50"></i><a class="text-decoration-none blue-txt" href="mailto:Spargus00@gmail.com"></i>Spargus00@gmail.com</li></a>
+                            <li class="my-3"><i class="bi bi-github me-2 text-black-50"></i><a class="text-decoration-none blue-txt" href="https://github.com/Asphalt-Ship" target="blank"></i>Asphalt-Ship</li></a>
                         </ul>
                     </div>
                 </div>
@@ -74,36 +75,68 @@
             <!-- experience -->
             <div class="col-md-6">
                 <div class="blue-bg row">
-                    <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5">
-                        Expérience
+                    <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5 w-75">
+                        Formation
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quisquam nisi sit vitae aut iusto dolor ullam hic fuga pariatur?</p>
-                        <p>Similique cumque error nisi quis ducimus eum dicta totam odio voluptate voluptas, esse fuga repudiandae! Officia cumque nisi mollitia non.</p>
-                        <p>Earum numquam eos illum minima facilis possimus, ipsam atque placeat voluptatum quisquam neque consequuntur molestiae, incidunt sint excepturi ut et.</p>
+                        <div class="container my-4 border-bottom pb-4">
+                            <div class="h5">
+                                Alt-rh - développement web / web mobile
+                            </div>
+                            <div class="small-txt blue-txt mb-1">
+                                2020
+                            </div>
+                            <div class="small-txt">
+                                Formation de 6 mois sur le métier du développement web et web mobile, suivi d'un stage d'1 mois en entreprise.
+                            </div>
+                        </div>
+                        <div class="container my-4 border-bottom pb-4">
+                            <div class="h5">
+                                Python - apprentissage autodidacte sur Docstring.fr
+                            </div>
+                            <div class="small-txt blue-txt mb-1">
+                                2020 - 2021
+                            </div>
+                            <div class="small-txt">
+                                Apprentissage en autodidacte du langage de programmation Python en version 3.
+                            </div>
+                        </div>
+                        <div class="container mb-5">
+                            <div class="h5">
+                                Master en Philosophie Contemporaine
+                            </div>
+                            <div class="small-txt blue-txt mb-1">
+                                2017
+                            </div>
+                            <div class="small-txt">
+                                En 2017, j'obtiens mon diplôme de Master en Philosophie Contemporaine, délivré par l'université Paris 1 Panthéon-Sorbonne avec mention.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- other -->
             <div class="col-md-6">
                 <!-- skills -->
-                <div class="row">
+                <div id="skills" class="row">
                     <div class="col-md-12">
                         <div class="darkgrey-bg row">
-                            <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5">
+                            <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5 w-75">
                                 Compétences
                             </div>
                         </div>
                         <div class="row">
-                            <div class="lightgrey-bg col-md-12">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Eos, consectetur similique. Ipsum, similique.</li>
-                                    <li>Repudiandae maxime facilis iste sapiente!</li>
-                                    <li>Deleniti adipisci nobis totam laudantium!</li>
-                                    <li>Veniam quidem porro mollitia exercitationem?</li>
+                            <div class="container lightgrey-bg col-md-12 d-flex justify-content-lg-center">
+                                <ul class="ms-5 ms-lg-0 py-4 list-unstyled mt-2">
+                                    <li class="h6 blue-txt"><i class="fab fa-html5 me-2"></i>HTML 5</li>
+                                    <li class="h6 blue-txt"><i class="fab fa-css3-alt me-2"></i>CSS 3</li>
+                                    <ul>
+                                        <li class="h6 blue-txt"><i class="fab fa-sass me-2"></i>Sass / SCSS</li>
+                                        <li class="h6 blue-txt"><i class="fab fa-bootstrap me-2"></i>Bootstrap 3, 4, 5</li>
+                                    </ul>
+                                    <li class="h6 blue-txt"><i class="fab fa-python me-2"></i>Python 3</li>
                                 </ul>
                             </div>
                         </div>
@@ -113,14 +146,34 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="darkgrey-bg row">
-                            <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5">
-                                Formation
+                            <div class="h4 col-md-12 text-uppercase text-white py-2 ms-5 w-75">
+                                Expérience
                             </div>
                         </div>
                         <div class="lightgrey-bg row">
                             <div class="col-md-12">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                                <p>Blanditiis dolores ducimus ab possimus!</p>
+                                <div class="container my-4 border-bottom pb-4">
+                                    <div class="h5">
+                                        Assesseuse internet
+                                    </div>
+                                    <div class="small-txt blue-txt mb-1">
+                                        Décembre 2017 - Octobre 2020
+                                    </div>
+                                    <div class="small-txt">
+                                        Travailleuse en auto-entreprise libérale, je loue mes services à Lionbridge. Mon travail consiste à traiter les informations de diverses recherches internet et contenus Google, Facebook, Twitter, YouTube, et déterminer si ces contenus sont conformes aux attentes des utilisateurs.
+                                    </div>
+                                </div>
+                                <div class="container mb-5">
+                                    <div class="h5">
+                                        HTML - ForumActif
+                                    </div>
+                                    <div class="small-txt blue-txt mb-1">
+                                        2018-2020
+                                    </div>
+                                    <div class="small-txt">
+                                        Grâce à la plateforme de forums ForumActif, je m'initie au langage HTML et aux notions basiques de CSS afin de modifier et réparer le contenu de diverses pages des forums dont j'avais la charge en tant que modératrice.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
