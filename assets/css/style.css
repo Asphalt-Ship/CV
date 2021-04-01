@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+.h1, .h4 {
+  font-family: "Merriweather", serif !important;
+}
+.h1 #lightgrey-name, .h4 #lightgrey-name {
+  color: #d9d9d9;
+}
+
+#darkgrey-bg {
+  background-color: #a1a1a1;
+}
+
+#lightgrey-bg {
+  background-color: #e6e6e6;
+}
+
+#blue-bg {
+  background-color: #80bcc5;
+}
